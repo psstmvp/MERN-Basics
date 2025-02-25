@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registation Page</title>
+</head>
+<body>
+  <form method="post">
+    <h3 align="center">User Registation</h3>
+    <table border="1" align="center">
+
+      <tr>
+        <td>FirstName</td>
+        <td><input type="text" name="txt_fname"></td>
+      </tr>
+
+      <tr>
+        <td>LastName</td>
+        <td><input type="text" name="txt_lname"></td>
+      </tr>
+
+
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="rd_gender" value="Male">Male
+          <input type="radio" name="rd_gender" value="Female">Female
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>Martial</td>
+        <td>
+          <input type="radio" name="rd_mar" value="rdbSingle">Single
+          <input type="radio" name="rd_mar" value="rdbMarried">Married
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>Dept</td>
+        <td>
+          <select name="sel_department">
+            <option value="sel">--select--</option>
+            <option value="cs">CS</option>
+            <option value="it">IT</option>
+          </select>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>Qualification</td>
+        <td>
+          <input type="checkbox" name="chk_qual" value="chkMCA">MCA
+          <input type="checkbox" name="chk_qual" value="chkMBA">MBA
+        </td>
+      </tr>
+
+      <tr>
+        <td>UserName</td>
+        <td><input type="text" name="txt_uname"></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <input type="button" name="btn_check" value="CheckAvailability">
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>Password</td>
+        <td><input type="password" name="txt_pwd"></td>
+      </tr>
+
+      <tr>
+        <td>Retype</td>
+        <td><input type="password" name="txt_rpwd"></td>
+      </tr>
+
+
+      <tr>
+        <td>Email</td>
+        <td><input type="text" name="txt_email"></td>
+      </tr>
+
+      <tr>
+        <td>Phone</td>
+        <td><input type="text" name="txt_phone"></td>
+      </tr>
+
+      <tr>
+        <td>Photo</td>
+        <td><input type="file" name="file_photo"></td>
+      </tr>
+
+      <tr>
+        <td>SecurityQn</td>
+        <td>
+          <select name="sel_sqn">
+            <option value="sel">--select--</option>
+            <option value="q1">Favourite Color?</option>
+            <option value="q2">Favourite Food?</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Answer</td>
+        <td><input type="text" name="txt_ans"></td>
+      </tr>
+
+
+      <tr>
+        <td>Address</td>
+        <td>
+          <textarea name="txt_address" rows="2" cols="16"></textarea>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" name="btn_submit" value="Submit">
+          <input type="reset" name="btn_reset" value="Reset">
+        </td>
+      </tr>
+
+
+
+    </table>
+
+  </form>
+
+</body>
+</html>

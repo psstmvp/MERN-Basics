@@ -1,0 +1,29 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.subContainer {
+  display: flex;
+  align-items: flex-end;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  margin: 3px;
+  border-radius: 4px;
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.red {
+  background-color: red;
+}
